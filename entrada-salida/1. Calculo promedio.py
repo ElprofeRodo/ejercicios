@@ -14,5 +14,5 @@ nota5 = float(input("Ingresa quinta nota: "))
 
 promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
 
-# Opcionalmente, se puede redondear a un decimal
+# Opcionalmente, se puede redondear con 1 decimal
 print(f"El promedio es {promedio:.1f}")

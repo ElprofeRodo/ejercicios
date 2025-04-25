@@ -14,5 +14,5 @@ estatura = float(input("Ingresa tu estatura: "))
 # Estatura elevada a 2
 imc = peso / (estatura**2)
 
-# Opcionalmente, se puede redondear a 2 decimales
+# Opcionalmente, se puede redondear con 2 decimales
 print(f"Tu IMC es {imc:.2f}")
