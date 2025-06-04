@@ -16,6 +16,7 @@ while True:
                 while True:
                     try:
                         cantidad = int(input("Cantidad: "))
+                        break
                     except:
                         print("La cantidad debe ser numerica")
             elif opcion2 == "2":
