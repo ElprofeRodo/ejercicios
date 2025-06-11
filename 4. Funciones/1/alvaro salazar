@@ -1,7 +1,12 @@
 def sumatoria():
     contador = 0
+    suma = 0
     while contador < 15:
         contador +=1
         numero = int(input(f"ingresa un numero {contador}: "))
+        suma = suma + numero 
+    return suma
     
-sumatoria()
+final = sumatoria()
+print(final)
+
